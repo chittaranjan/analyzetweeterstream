@@ -11,7 +11,7 @@ var Twitter = new twit(config);
 //  filter the twitter public stream by the word and location.
 //
 var stream = Twitter.stream('statuses/filter', {
-   track: '#MastercardAtSSC'
+   track: 'narendramodi'
   })
 
 stream.on('tweet', function (tweet) {

@@ -19,7 +19,23 @@
   "homepage": "https://github.com/chittaranjan/analyzetweeterstream#readme",
   "dependencies": {
     "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.12.0",
+    "node-jsx": "^0.13.3",
+    "react": "^16.0.0",
     "socket.io": "^2.0.3",
     "twit": "^2.2.9"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "nodemon": "^1.12.1",
+    "reactify": "^1.1.1",
+    "uglify": "^0.1.5",
+    "watchify": "^3.9.0"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
   }
 }
